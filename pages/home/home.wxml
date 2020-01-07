@@ -1,1 +1,12 @@
 <text class="title">Hello World</text>
+
+<!-- 1.小程序的数据绑定 -->
+
+<view>Hello {{name}}</view>
+
+<!-- 2.列表展示 -->
+<view wx:for="{{movies}}" wx:key="id">{{item.name}}</view>
+
+<!-- 3.时间监听改变数据 -->
+<view>当前计数：{{counter}}</view>
+<button size="mini" bindtap="handleAdd">+</button> <button size="mini" bindtap="handleSubtract">-</button>
