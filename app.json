@@ -1,6 +1,46 @@
 {
-  "pages":[
+  "pages": [
     "pages/home/home",
-    "pages/about/about"
-  ]
+    "pages/equip/equips",
+    "pages/alarm/alarm",
+    "pages/profile/profile"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#4682B4",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "白云电气",
+    "backgroundColor": "#ffffff",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "selectedColor": "#4682B4",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "主页",
+        "iconPath": "assets/tabbar/home.png",
+        "selectedIconPath": "assets/tabbar/home_active.png"
+      },
+      {
+        "pagePath": "pages/equip/equips",
+        "text": "设备",
+        "iconPath": "assets/tabbar/equip.png",
+        "selectedIconPath": "assets/tabbar/equip_active.png"
+      },
+      {
+        "pagePath": "pages/alarm/alarm",
+        "text": "告警",
+        "iconPath": "assets/tabbar/alarm.png",
+        "selectedIconPath": "assets/tabbar/alarm_active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "账户",
+        "iconPath": "assets/tabbar/profile.png",
+        "selectedIconPath": "assets/tabbar/profile_active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap49.json"
 }

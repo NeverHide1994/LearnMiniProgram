@@ -1,4 +1,4 @@
-<text class="title">Hello World</text>
+<text class="title">DOUBLEMINT</text>
 
 <!-- 1.小程序的数据绑定 -->
 
@@ -10,3 +10,10 @@
 <!-- 3.时间监听改变数据 -->
 <view>当前计数：{{counter}}</view>
 <button size="mini" bindtap="handleAdd">+</button> <button size="mini" bindtap="handleSubtract">-</button>
+
+<!-- 获取用户信息方法2 -->
+<button open-type="getUserInfo" bindgetuserinfo="handUserInfo">获取用户信息</button>
+
+<!-- 展示用户信息 -->
+<open-data type='userNickName'></open-data>
+<open-data  type='userAvatarUrl'></open-data>
